@@ -3,6 +3,8 @@
 <head>
     <title>Kontaktai</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/dizainas.css">
 </head>
 <body>
 
@@ -18,7 +20,7 @@
     <h1>Kontaktai</h1>
     <img src="https://70stma.co.uk/wp-content/uploads/map-placeholder.jpg" alt="map" width="100%" height="200"/>
 
-    <form action="http://localhost/kontaktai.php" method="post">
+    <form action="/kontaktai/index.php" method="post">
         <label for="vardo_laukas">Vardas</label>
         <input type="text" id="vardo_laukas" name="vardas">
         <br>
@@ -36,8 +38,7 @@
         </select>
         <br>
         <label for="zinutes_laukas">Zinute</label>
-        <textarea id="zinutes_laukas" name="zinute" placeholder="Jusu zinute mums" cols="30" rows="10">
-        </textarea>
+        <textarea id="zinutes_laukas" name="zinute" placeholder="Jusu zinute mums" cols="30" rows="10"></textarea>
         <br>
         <input type="submit" value="Siusti">
     </form>
