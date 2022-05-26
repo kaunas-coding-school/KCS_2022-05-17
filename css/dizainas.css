@@ -7,6 +7,8 @@
     justify-content:center;
     align-items:center;
     height:150px;
+    color: dimgray;
+    border: 1px dashed dimgray;
 }
 
 .container > aside {
@@ -64,4 +66,20 @@ nav > a:last-child {
 nav > a:hover {
     font-weight: bold;
     color: darkolivegreen;
+}
+
+main > h1 {
+    border-bottom: 2px solid dimgray;
+    padding-bottom: 0.5em;
+}
+main > h1 + span {
+    font-size: 12px;
+    position: relative;
+    color: dimgrey;
+    top: -45px;
+}
+
+.profile_info p > img{
+    float: left;
+    margin-right : 10px;
 }

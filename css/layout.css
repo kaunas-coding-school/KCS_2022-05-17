@@ -22,6 +22,19 @@ body > * {
     padding: 0;
 }
 
+body > header {
+    background-image: url("/img/logo.svg");
+    background-repeat: no-repeat;
+    background-color: mediumaquamarine;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-origin: content-box;
+    font-size: 1.5em;
+}
+
 nav {
-    margin-left: 150px;
+    display: flex;
+    right: 0;
 }
