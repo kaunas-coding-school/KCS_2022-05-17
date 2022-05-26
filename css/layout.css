@@ -1,3 +1,27 @@
-body {
-    background-color:green;
+body > * {
+    margin: 5px;
+    padding: 10px;
+}
+
+.container > aside, .container > main {
+    float: left;
+}
+
+.container > aside {
+    width: 250px;
+}
+
+.container > main {
+    width: 1253px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+}
+
+nav {
+    margin-left: 150px;
 }
