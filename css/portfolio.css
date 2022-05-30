@@ -1,0 +1,31 @@
+.table {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.table > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.table > div:nth-of-type(2n+1) {
+    background-color: dimgrey;
+}
+
+.table > div:nth-of-type(4n+2) {
+    background-color: lightskyblue;
+}
+
+.table > div:nth-of-type(4n+4) {
+    background-color: lightgreen;
+}
+
+.table > div:nth-of-type(2n+16) {
+    background-color: lightcoral;
+}
