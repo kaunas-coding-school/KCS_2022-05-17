@@ -1,11 +1,25 @@
-let n1 = 5;
-let n2 = 6;
+let array = [37,15,16,27,3,5,7,8,9];
+let i = 0;
+let even = [];
+let odd = [];
 
-S1 = (n1 - 2) * 180;
-S2 = (n2 - 2) * 180;
 
-let atsakymas = n1 + ' kampu suma: ' + S1 + '<br>'
-    + n2 + ' kampu suma: ' + S2 + '<br>'
-    + 'Visu daugiakampiu suma: ' + (S2 + S1);
+while (i < array.length) {
+    let elementas = array[i];
+    if (elementas % 2 === 0) {
+        even.push(elementas);
+    } else {
+        odd.push(elementas);
+    }
 
-document.getElementById('ats').innerHTML = atsakymas;
+    i++;
+}
+
+console.log(even, odd);
+
+
+elementas.setAttribute('style', 'color:red');
+elementas.style.color = red;
+
+elementas.setAttribute('src', 'kasdfas.jpg');
+elementas.src = 'asdfasd.jpg';
