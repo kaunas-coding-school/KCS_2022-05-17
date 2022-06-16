@@ -1,19 +1,23 @@
-let array = [37,15,16,27,3,5,7,8,9];
-let i = 0;
-let even = [];
-let odd = [];
+function generuotiProduktus(produktai = []) {
+    let html = '';
 
-
-while (i < array.length) {
-    let elementas = array[i];
-    if (elementas % 2 === 0) {
-        even.push(elementas);
-    } else {
-        odd.push(elementas);
+    for (let i = 0; i < produktai.length; i++) {
+        let prod = produktai[i];
+        html += '' +
+            '<a href="preke.html#' + i + '">\n' +
+            '    <div class="produktas">\n' +
+            '        <div class="name">' + prod.pavadinimas + '</div>\n' +
+            '        <img src="' + prod.pav + '" alt="' + prod.pavadinimas + '" class="foto">\n' +
+            '        <p class="desc">' + prod.aprasymas + '</p>\n' +
+            '        <div class="price">' + prod.kaina + '</div>\n' +
+            '    </div>' +
+            '</a>';
     }
 
-    i++;
+    document.getElementById('produktai').innerHTML = html;
 }
 
-console.log(even, odd);
-
+fetch('./js/produktai.json')
+    .then(response => response.json())
+    .then(data => generuotiProduktus(data))
+    .catch(error => console.log(error));

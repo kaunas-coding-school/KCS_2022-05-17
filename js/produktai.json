@@ -1,0 +1,26 @@
+[
+  {
+    "pavadinimas": "Preke 1",
+    "kaina": 10,
+    "pav": "/img/prod/prod1.jpg",
+    "aprasymas": "1111"
+  },
+  {
+    "pavadinimas": "Preke 2",
+    "kaina": 20,
+    "pav": "/img/prod/prod1.jpg",
+    "aprasymas": "2222"
+  },
+  {
+    "pavadinimas": "Preke 3",
+    "kaina": 30,
+    "pav": "/img/prod/prod1.jpg",
+    "aprasymas": "3333"
+  },
+  {
+    "pavadinimas": "Preke 4",
+    "kaina": 40,
+    "pav": "/img/prod/prod1.jpg",
+    "aprasymas": "444"
+  }
+]
