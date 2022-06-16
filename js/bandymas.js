@@ -17,9 +17,3 @@ while (i < array.length) {
 
 console.log(even, odd);
 
-
-elementas.setAttribute('style', 'color:red');
-elementas.style.color = red;
-
-elementas.setAttribute('src', 'kasdfas.jpg');
-elementas.src = 'asdfasd.jpg';
