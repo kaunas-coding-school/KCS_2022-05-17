@@ -9,6 +9,7 @@ function pildytiProdukta(produktai = []) {
         document.getElementsByClassName('foto')[0].alt = prod.pavadinimas;
         document.getElementsByClassName('desc')[0].innerHTML = prod.aprasymas;
         document.getElementsByClassName('price')[0].innerHTML = prod.kaina;
+        document.getElementsByClassName('price')[0].href = '/pirkti/#'+j;
 }
 
 fetch('./js/produktai.json')

@@ -1,0 +1,25 @@
+<h1>Kontaktai</h1>
+<img src="https://70stma.co.uk/wp-content/uploads/map-placeholder.jpg" alt="map" width="100%" height="200"/>
+
+<form action="/kontaktai/index.php" method="post">
+    <label for="vardo_laukas">Vardas</label>
+    <input type="text" id="vardo_laukas" name="vardas">
+    <br>
+    <label for="pavardes_laukas">Pavarde</label>
+    <input type="text" id="pavardes_laukas" name="pavarde">
+    <br>
+    <label for="pasto_laukas">El. pastas</label>
+    <input type="text" id="pasto_laukas" name="elpastas">
+    <br>
+    <label for="tema_laukas">Tema</label>
+    <select name="tema" id="tema_laukas">
+        <option>Pasirinkite tema</option>
+        <option value="klausimas">Klausimas</option>
+        <option value="uzsakymas">Uzsakymas</option>
+    </select>
+    <br>
+    <label for="zinutes_laukas">Zinute</label>
+    <textarea id="zinutes_laukas" name="zinute" placeholder="Jusu zinute mums" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Siusti">
+</form>

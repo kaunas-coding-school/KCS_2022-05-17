@@ -22,5 +22,11 @@
     "kaina": 40,
     "pav": "/img/prod/prod1.jpg",
     "aprasymas": "444"
+  },
+  {
+    "pavadinimas": "Preke 5",
+    "kaina": 50,
+    "pav": "/img/prod/prod1.jpg",
+    "aprasymas": "555"
   }
 ]
